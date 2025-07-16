@@ -35,7 +35,7 @@ To run this application locally, follow these simple steps:
 1.  **Clone the repository** (or download the files directly):
 
     ```bash
-    git clone <your-github-repo-link>
+    git clone https://github.com/yonas-baysasaw/Todo-List.git
     ```
 
     If you downloaded the files, just extract the zip archive.
@@ -43,7 +43,7 @@ To run this application locally, follow these simple steps:
 2.  **Navigate to the project directory**:
 
     ```bash
-    cd simple-todo-list
+    cd Todo-List
     ```
 
 3.  **Open `index.html`**:
