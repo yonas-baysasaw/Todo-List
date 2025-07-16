@@ -15,23 +15,18 @@ To be added after you run the application and take screenshots. You should repla
 
 ### Initial State
 
-![Screenshot of the initial Todo List application with an empty task list and input field.](path/to/screenshot-initial.png)
+![Screenshot of the initial Todo List application with an empty task list and input field.](screenshot/initial.png)
 _Description: This screenshot shows the Todo List application immediately after opening, with the "Add a new task..." input field and the "Add Task" button._
 
 ### Task Added
 
-![Screenshot of the Todo List application with one task added.](path/to/screenshot-task-added.png)
+![Screenshot of the Todo List application with one task added.](screenshot/task-added.png)
 _Description: This screenshot demonstrates a task ("Buy groceries") successfully added to the list, showing the task text, an "Edit" button, and a "Delete" button._
 
 ### Editing a Task
 
-![Screenshot of the Todo List application with a task being edited.](path/to/screenshot-editing-task.png)
+![Screenshot of the Todo List application with a task being edited.](screenshot/editing-task.png)
 _Description: This screenshot displays the application while a task is being edited. The task text is replaced by an input field, and the "Edit" button is replaced by a "Save" button._
-
-### Multiple Tasks and Deletion
-
-![Screenshot of the Todo List application with multiple tasks and one deleted.](path/to/screenshot-multiple-tasks-deleted.png)
-_Description: This screenshot illustrates the list with several tasks. One task has been deleted, demonstrating the removal functionality._
 
 ## How to Run
 
@@ -65,8 +60,4 @@ The application will load in your browser, and you can start adding, editing, an
 
 ## Author
 
-[Your Name/Alias] - [Link to your GitHub Profile (optional)]
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE) (or choose another license if preferred).
+Yonas Baysasaw
