@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Changed to flex-start to prevent overflow issues */
+  min-height: 100vh;
+  margin: 20px; /* Added some margin for better spacing */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box; /* Ensure padding doesn't expand the container beyond max-width */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#taskInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#addTaskBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+
+#addTaskBtn:hover {
+  background-color: #0056b3;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-word; /* Ensure long words break */
+}
+
+#taskList li.editing input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #007bff;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#taskList li span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.task-actions {
+  display: flex;
+  gap: 5px; /* Space between buttons */
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+.task-actions .edit-btn {
+  color: #28a745; /* Green for edit */
+}
+
+.task-actions .edit-btn:hover {
+  background-color: #e6ffe6;
+}
+
+.task-actions .delete-btn {
+  color: #dc3545; /* Red for delete */
+}
+
+.task-actions .delete-btn:hover {
+  background-color: #ffe6e6;
+}
+
+.task-actions .save-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-actions .save-btn:hover {
+  background-color: #0056b3;
+}
